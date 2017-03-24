@@ -21,6 +21,7 @@ public class Contacto {
     private String email;
     private String direccion;
     private String telefono;
+    private int edad;
     private static final String ExpresionRegular = "^[_A-Za-z0-9-\\+]+(\\.[_A-Za-z0-9-]+)*@"
             + "[A-Za-z0-9-]+(\\.[A-Za-z0-9]+)*(\\.[A-Za-z]{2,})$";
 
