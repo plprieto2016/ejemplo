@@ -1,0 +1,2 @@
+Juan|Lopez|jlopez@hola.es|Olivo|123456789
+Pedro|Gomez|pgomez@hola.es|pgomez@hola.es|111111111

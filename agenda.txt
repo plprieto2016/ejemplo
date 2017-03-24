@@ -1,0 +1,3 @@
+Pedro|Salces|psalces@hola.es|Paz|222222222
+Luis|Gonzalez|lgonzalez@hola.es|Olivo|444444444
+Antonio|Luque|aluque@hola.es|Ancha|555555555
