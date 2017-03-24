@@ -19,7 +19,7 @@ public class Contacto {
     private String nombre;
     private String apellidos;
     private String email;
-    private String direccion;
+    private String adress;
     private String telefono;
     private int edad;
     private static final String ExpresionRegular = "^[_A-Za-z0-9-\\+]+(\\.[_A-Za-z0-9-]+)*@"
@@ -42,7 +42,7 @@ public class Contacto {
         if (comprobarEmail(email) == true) {
             this.email = email;
         }
-        this.direccion = comprobarDireccion(direccion);
+        this.adress = comprobarDireccion(direccion);
         this.telefono = comprobarTelefono(telefono);
     }
 
@@ -199,7 +199,7 @@ public class Contacto {
      * @return direccion
      */
     public String getDireccion() {
-        return direccion;
+        return adress;
     }
 
     /**
@@ -208,7 +208,7 @@ public class Contacto {
      * @param direccion
      */
     public void setDireccion(String direccion) {
-        this.direccion = direccion;
+        this.adress = direccion;
     }
 
     /**
